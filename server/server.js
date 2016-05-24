@@ -21,6 +21,7 @@ app.post('/api', function(req, res){
   //   lat: 37.788840,
   //   long: 122.398129
   // };
+  
 
   list.data.forEach(function(properties){
     var distance = calculateDistance(coords, properties);
